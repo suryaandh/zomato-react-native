@@ -1,7 +1,7 @@
 import { Image, Platform, StatusBar, View } from 'react-native'
 import React, { FC, useEffect } from 'react'
 import { useStyles } from 'react-native-unistyles'
-import { loginStyles, splashStyles } from '@unistyles/authStyles'
+import { splashStyles } from '@unistyles/authStyles'
 import Animated, { FadeInDown } from 'react-native-reanimated'
 import CustomText from '@components/global/CustomText'
 import { resetAndNavigate } from '@utils/NavigationUtils'

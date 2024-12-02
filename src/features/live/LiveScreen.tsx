@@ -1,10 +1,13 @@
-import { View, Text } from 'react-native'
+import { View, Text, Image } from 'react-native'
 import React from 'react'
+import { emptyStyles } from '@unistyles/emptyStyles'
+import { useStyles } from 'react-native-unistyles'
 
 const LiveScreen = () => {
+    const { styles } = useStyles(emptyStyles)
     return (
-        <View>
-            <Text>LiveScreen</Text>
+        <View style={styles.container(true)}>
+            <Image source={require('@assets/images/coming_soon2.jpg')} style={styles.emptyImage} />
         </View>
     )
 }
